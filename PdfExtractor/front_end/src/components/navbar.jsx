@@ -7,8 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './navbar.css';
-import { getID } from '../services/getTokenId';
-import { useNavigate } from 'react-router-dom';
+
 
 
 
@@ -20,17 +19,6 @@ function BasicExample() {
     setShowSignInUp(!showSignInUp);
   };
 
-
-
-  const [id, setId] = useState(null)
-  const getId = getID()
-
-  getId.then((token) => {
-    setId(token)
-  }).catch((error) => {
-    console.error("Error fetching token:", error);
-  });
-  const Navigate = useNavigate() 
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
