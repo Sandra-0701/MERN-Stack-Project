@@ -31,7 +31,7 @@
   flex-direction: column;
   position: absolute;
   top: 100%;
-  right: 0;
+  right: 70;
   background: #e90357#fff; /* Background color for the options */
   border: 1px solid #ccc; /* Border style for the options */
   border-radius: 5px;
