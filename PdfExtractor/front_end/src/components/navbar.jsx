@@ -29,26 +29,15 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <NavDropdown title="Service" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Pdf Extract</NavDropdown.Item>
-              
-            </NavDropdown>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
           </Nav>
           <div className="user-icon" onClick={toggleSignInUp}>
             <FontAwesomeIcon icon={faUser} />
             {showSignInUp && (
               <div className="sign-in-up-options">
-                {/* <a href="/login">Sign In</a>
-                <a href="/registration">Sign Up</a> */}
-
-                <Nav.Link href="/login" className="ml-auto" >
-                    Sign In
-                  </Nav.Link>
-                  <Nav.Link href="/registration" className="ml-auto" >
-                    Sign Up
-                  </Nav.Link>
+                <a href="/login">Sign In</a>
+                <a href="/registration">Sign Up</a>
               </div>
             )}
           </div>
