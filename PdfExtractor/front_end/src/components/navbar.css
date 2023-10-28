@@ -1,0 +1,53 @@
+/* navbar.css */
+
+/* Background styling for the navbar */
+.bg-body-tertiary {
+  background-color: transparent !important; /* Set the background to transparent */
+}
+
+/* Styling for the logo image */
+
+
+/* Styling for the "Extractor" brand */
+.extractor {
+  font-family: sans-serif;
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  color: #ec0707; /* Adjust the text color as needed */
+  font:bold;
+
+}
+
+
+/* Styling for the user icon */
+.user-icon {
+  cursor: pointer;
+  margin-left: auto; /* Push the user icon to the right */
+  color:  #e90357;
+}
+
+/* Styling for the sign-in and sign-up options */
+.sign-in-up-options {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #e90357#fff; /* Background color for the options */
+  border: 1px solid #ccc; /* Border style for the options */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for the options */
+  padding: 10px;
+  z-index: 1;
+}
+
+/* Styling for the options' links */
+.sign-in-up-options a {
+  text-decoration: none;
+  color: #333; /* Link text color */
+  padding: 5px 0;
+}
+
+/* Hover effect for the links */
+.sign-in-up-options a:hover {
+  background-color: #eee; /* Background color on hover */
+}
