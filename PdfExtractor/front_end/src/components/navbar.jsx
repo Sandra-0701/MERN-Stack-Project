@@ -58,7 +58,7 @@ function BasicExample() {
                 <Nav.Link href="/login" className="ml-auto" >
                     Sign In
                   </Nav.Link>
-                  <Nav.Link href="/register" className="ml-auto" >
+                  <Nav.Link href="/registration" className="ml-auto" >
                     Sign Up
                   </Nav.Link>
               </div>
